@@ -8,7 +8,7 @@ use crate::module_elements::{
 pub struct Module {
     name: String,
     functions: Vec<Function>,
-    globals: Vec<Global>,
+    globals: Vec<GlobalVariable>,
     metadata: Vec<Metadata>
 }
 

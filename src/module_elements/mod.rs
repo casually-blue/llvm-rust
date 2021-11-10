@@ -1,4 +1,8 @@
-mod metadata;
-mod module;
-mod global;
-mod function;
+pub mod metadata;
+pub mod module;
+pub mod global;
+pub mod function;
+
+pub trait Global {
+
+}
